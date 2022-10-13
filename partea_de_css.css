@@ -1,0 +1,316 @@
+*{
+    font-family: 'Koulen', cursive;
+}
+
+.titlu{
+    /*position: absolute;
+    right:960px;
+    top:20px;
+    
+
+    
+    border: 2px solid #225763;
+    border-radius: 3px;
+    text-align: center;
+    margin:auto;
+    */
+    
+    text-align:center;
+    margin-bottom:50px;
+    font-size:300%;
+    
+}
+
+.titlu:hover{
+    color: #e4f1fe;
+}
+
+.hidden{
+    display:none;
+}
+
+body{
+    background: linear-gradient(to left, #41d8bf, #2f89b3);
+}
+
+.section--left{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #225763;
+    border-radius: 3px;
+    text-align: center;
+    margin:auto;
+    background-color:#8dc6ff;
+
+    
+
+    box-shadow: 10px 10px rgba(0,0,0,0.25);
+}
+
+.section--left:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+.section--right{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #225763;
+    border-radius: 3px;
+    text-align: center;
+    margin:auto;
+    background-color:#8dc6ff;
+
+    box-shadow: 10px 10px rgba(0,0,0,0.25);
+}
+
+.section--right:hover {
+    border-radius: 50% 50% 0% 0% / 5% 5% 0% 0% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+.player--active{
+    background-color:#e4f1fe;
+}
+
+/*
+.player--0{
+    font-size: 140%;
+    margin: auto;
+}
+
+.player--1{
+    font-size: 140%;
+    margin: auto;
+}
+
+.score--0{
+    font-size: 160%;
+    margin: auto;
+}
+
+.score--1{
+    font-size: 160%;
+    margin: auto;
+}
+
+.current-label--0{
+    margin-top:30px;
+}
+
+.current-label--1{
+    margin-top:30px;
+}
+
+.current{
+    font-size: 140%;
+    margin: auto;
+}
+
+.current-score--0{
+    font-size: 160%;
+    margin: auto;
+}
+
+.current-score--1{
+    font-size: 160%;
+    margin: auto;
+}
+*/
+
+.button--new-game{
+    width: 133.33px;
+    height: 50px;
+    background-color:#e4f1fe;
+    cursor: pointer;
+}
+
+.button--new-game:hover{
+    background-color:black;
+    color: #e4f1fe;
+}
+
+.button--roll{
+    width: 133.33px;
+    height: 50px;
+    background-color:#e4f1fe;
+    cursor: pointer;
+}
+
+.button--roll:hover{
+    background-color:black;
+    color: #e4f1fe;
+}
+
+.button--hold{
+    width: 133.33px;
+    height: 50px;
+    background-color:#e4f1fe;
+    cursor: pointer;   
+}
+
+.button--hold:hover{
+    background-color:black;
+    color: #e4f1fe;
+}
+
+.dice-side{
+    position: absolute;
+    top: 418px;
+    right: auto;
+}
+
+.butoane{
+    text-align: center;
+}
+
+/*
+.current-label--0{
+    background-color: #8dc6ff;
+    margin:auto;
+    width:50%;
+}
+
+.current-label--1{
+    background-color: #e4f1fe;
+    margin:auto;
+    width:50%;
+}
+*/
+
+
+.player--0-wins{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    right : 600px;
+}
+
+.player--1-wins{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    bottom: 100px;
+    right : 600px;
+}
+
+.score-label--0{
+    font-size:125%;
+}
+
+.score-label--1{
+    font-size:125%;
+}
+
+.current-label--0{
+    font-size:125%;
+}
+
+.current-label--1{
+    font-size:125%;
+}
+
+.cutie1{
+  
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #41d8bf;
+  
+  
+  animation-name: animatie1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animatie1 {
+    0% {left:0px; bottom:0px;}
+   25% {left:200px; bottom:0px;}
+   50% {left:200px; bottom:200px;}
+   75% {left:0px; bottom:200px;}
+  100% {left:0px; bottom:0px;}    
+}
+
+.cutie1:hover{
+    background-color: #e4f1fe;
+}
+
+.cutie2{
+  
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #41d8bf;
+    
+    
+    animation-name: animatie2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+@keyframes animatie2 {
+      0% {left:0px; top:0px;}
+     25% {left:200px; top:0px;}
+     50% {left:200px; top:200px;}
+     75% {left:0px; top:200px;}
+    100% {left:0px; top:0px;}    
+  }
+ 
+.cutie2:hover{
+    background-color: #e4f1fe;
+}  
+
+.cutie3{
+  
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #2f89b3;
+    
+    
+    animation-name: animatie3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes animatie3 {
+      0% {right:0px; bottom:0px;}
+     25% {right:200px; bottom:0px;}
+     50% {right:200px; bottom:200px;}
+     75% {right:0px; bottom:200px;}
+    100% {right:0px; bottom:0px;}    
+  }
+
+.cutie3:hover{
+    background-color: #e4f1fe;
+}  
+
+.cutie4{
+  
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #2f89b3;
+    
+    
+    animation-name: animatie4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+@keyframes animatie4 {
+      0% {right:0px; top:0px;}
+     25% {right:200px; top:0px;}
+     50% {right:200px; top:200px;}
+     75% {right:0px; top:200px;}
+    100% {right:0px; top:0px;}    
+  }
+
+.cutie4:hover{
+    background-color: #e4f1fe;
+}
+
+
+ 
+ 
